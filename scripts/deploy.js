@@ -10,7 +10,7 @@ const hre = require("hardhat");
     const balanceBigInt=await hre.ethers.provider.getBalance(address);
     return hre.ethers.utils.formatEther(balanceBigInt);
   }
-
+ 
   async function consoleBalances(addresses){
     let count=0;
     for(const address of addresses){
