@@ -46,6 +46,7 @@ function App() {
     connectWallet();
   },[]);
   //console.log(state);
+
   return (
     <div style={{ backgroundColor: "#EFEFEF" }}>
       <p style={{ color: 'red',textAlign: 'center'}}>Account - {currentAccount}</p>
